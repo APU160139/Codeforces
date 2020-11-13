@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    long long int L,R,l,r;
+    cin>>t;
+    while(t--){
+        cin>>L>>R>>l>>r;
+        if(R == r){
+            cout<<R-1<<" "<<r<<endl;
+        }
+        else{
+            cout<<R<<" "<<r<<endl;
+        }
+    }
+    return 0;
+}
